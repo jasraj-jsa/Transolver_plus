@@ -169,7 +169,7 @@ model = Model(
     out_dim=4, slice_num=32, unified_pos=0, dropout=0.1,
 )
 
-ckpt = torch.load(args.checkpoint, map_location='cpu')
+ckpt = torch.load(args.checkpoint, map_location='cpu', weights_only=False)
 model.load_state_dict(ckpt['model_state_dict'])
 model = model.to(device)
 model.eval()

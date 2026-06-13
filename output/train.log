@@ -1,0 +1,263 @@
+2026-06-12 11:34:10,239 - ============================================================
+2026-06-12 11:34:10,239 - [START] args: Namespace(data_dir='/kaggle/input/datasets/nikshiith/shapenetcar-preprocessed/car_preprocessed', save_dir='/kaggle/input/datasets/nikshiith/shapenetcar-preprocessed/car_preprocessed', fold_id=0, gpu=0, val_iter=10, weight=0.5, lr=0.001, batch_size=1, nb_epochs=200, preprocessed=1, resume=1, checkpoint_every=10, output_dir='/kaggle/working/transolver_output')
+2026-06-12 11:36:11,745 - [INFO] Train samples: 789  Val samples: 100
+2026-06-12 11:36:11,967 - [INFO] Parameters: 1,741,224
+2026-06-12 11:36:11,989 - [CHECKPOINT] No checkpoint found at /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth, starting from scratch.
+2026-06-12 11:36:11,990 - [INFO] Model parameters: 1,741,224
+2026-06-12 11:36:11,991 - [INFO] Training from epoch 0 to 199
+2026-06-12 11:36:11,991 - [INFO] checkpoint_every=10  val_iter=10
+2026-06-12 11:39:50,310 - Epoch 0/199  train_loss=0.190845  val_mse=0.139588  val_l2re=0.378898  epoch_time=210.3s
+2026-06-12 11:39:50,375 - [CHECKPOINT] Saved best checkpoint at epoch 0 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 11:39:50,376 - [CHECKPOINT] New best model at epoch 0  val_l2re=0.378898
+2026-06-12 11:43:21,364 - Epoch 1/199  train_loss=0.107462  epoch_time=211.0s
+2026-06-12 11:46:52,552 - Epoch 2/199  train_loss=0.082931  epoch_time=211.2s
+2026-06-12 11:50:24,033 - Epoch 3/199  train_loss=0.068701  epoch_time=211.5s
+2026-06-12 11:53:55,108 - Epoch 4/199  train_loss=0.063894  epoch_time=211.1s
+2026-06-12 11:57:26,172 - Epoch 5/199  train_loss=0.061634  epoch_time=211.1s
+2026-06-12 12:00:57,426 - Epoch 6/199  train_loss=0.058281  epoch_time=211.3s
+2026-06-12 12:04:29,014 - Epoch 7/199  train_loss=0.059414  epoch_time=211.6s
+2026-06-12 12:08:00,156 - Epoch 8/199  train_loss=0.058363  epoch_time=211.1s
+2026-06-12 12:11:31,089 - Epoch 9/199  train_loss=0.057562  epoch_time=210.9s
+2026-06-12 12:11:31,138 - [CHECKPOINT] Saved latest checkpoint at epoch 9 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 12:15:10,051 - Epoch 10/199  train_loss=0.056285  val_mse=0.039514  val_l2re=0.197435  epoch_time=210.9s
+2026-06-12 12:15:10,119 - [CHECKPOINT] Saved best checkpoint at epoch 10 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 12:15:10,119 - [CHECKPOINT] New best model at epoch 10  val_l2re=0.197435
+2026-06-12 12:18:41,309 - Epoch 11/199  train_loss=0.055092  epoch_time=211.2s
+2026-06-12 12:22:12,312 - Epoch 12/199  train_loss=0.053980  epoch_time=211.0s
+2026-06-12 12:25:43,704 - Epoch 13/199  train_loss=0.052488  epoch_time=211.4s
+2026-06-12 12:29:14,930 - Epoch 14/199  train_loss=0.053073  epoch_time=211.2s
+2026-06-12 12:32:46,217 - Epoch 15/199  train_loss=0.050639  epoch_time=211.3s
+2026-06-12 12:36:17,570 - Epoch 16/199  train_loss=0.051035  epoch_time=211.4s
+2026-06-12 12:39:48,947 - Epoch 17/199  train_loss=0.050684  epoch_time=211.4s
+2026-06-12 12:43:20,364 - Epoch 18/199  train_loss=0.048025  epoch_time=211.4s
+2026-06-12 12:46:51,834 - Epoch 19/199  train_loss=0.048304  epoch_time=211.5s
+2026-06-12 12:46:51,908 - [CHECKPOINT] Saved latest checkpoint at epoch 19 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 12:50:31,656 - Epoch 20/199  train_loss=0.045758  val_mse=0.055475  val_l2re=0.237261  epoch_time=211.8s
+2026-06-12 12:54:03,487 - Epoch 21/199  train_loss=0.045892  epoch_time=211.8s
+2026-06-12 12:57:35,074 - Epoch 22/199  train_loss=0.043927  epoch_time=211.6s
+2026-06-12 13:01:07,112 - Epoch 23/199  train_loss=0.041273  epoch_time=212.0s
+2026-06-12 13:04:39,204 - Epoch 24/199  train_loss=0.040265  epoch_time=212.1s
+2026-06-12 13:08:11,431 - Epoch 25/199  train_loss=0.039012  epoch_time=212.2s
+2026-06-12 13:11:43,199 - Epoch 26/199  train_loss=0.038778  epoch_time=211.8s
+2026-06-12 13:15:15,111 - Epoch 27/199  train_loss=0.037911  epoch_time=211.9s
+2026-06-12 13:18:47,185 - Epoch 28/199  train_loss=0.036193  epoch_time=212.1s
+2026-06-12 13:22:19,652 - Epoch 29/199  train_loss=0.034800  epoch_time=212.5s
+2026-06-12 13:22:19,728 - [CHECKPOINT] Saved latest checkpoint at epoch 29 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 13:26:00,095 - Epoch 30/199  train_loss=0.035620  val_mse=0.028380  val_l2re=0.167515  epoch_time=212.3s
+2026-06-12 13:26:00,161 - [CHECKPOINT] Saved best checkpoint at epoch 30 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 13:26:00,161 - [CHECKPOINT] New best model at epoch 30  val_l2re=0.167515
+2026-06-12 13:29:32,330 - Epoch 31/199  train_loss=0.033751  epoch_time=212.2s
+2026-06-12 13:33:04,773 - Epoch 32/199  train_loss=0.033074  epoch_time=212.4s
+2026-06-12 13:36:37,223 - Epoch 33/199  train_loss=0.033277  epoch_time=212.4s
+2026-06-12 13:40:09,708 - Epoch 34/199  train_loss=0.032512  epoch_time=212.5s
+2026-06-12 13:43:42,358 - Epoch 35/199  train_loss=0.030867  epoch_time=212.6s
+2026-06-12 13:47:15,050 - Epoch 36/199  train_loss=0.030031  epoch_time=212.7s
+2026-06-12 13:50:47,452 - Epoch 37/199  train_loss=0.029827  epoch_time=212.4s
+2026-06-12 13:54:20,052 - Epoch 38/199  train_loss=0.029797  epoch_time=212.6s
+2026-06-12 13:57:52,644 - Epoch 39/199  train_loss=0.028492  epoch_time=212.6s
+2026-06-12 13:57:52,712 - [CHECKPOINT] Saved latest checkpoint at epoch 39 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 14:01:33,457 - Epoch 40/199  train_loss=0.028851  val_mse=0.029077  val_l2re=0.171514  epoch_time=212.7s
+2026-06-12 14:05:06,027 - Epoch 41/199  train_loss=0.027910  epoch_time=212.6s
+2026-06-12 14:08:38,598 - Epoch 42/199  train_loss=0.028329  epoch_time=212.6s
+2026-06-12 14:12:11,204 - Epoch 43/199  train_loss=0.026786  epoch_time=212.6s
+2026-06-12 14:15:43,563 - Epoch 44/199  train_loss=0.025973  epoch_time=212.4s
+2026-06-12 14:19:16,205 - Epoch 45/199  train_loss=0.028274  epoch_time=212.6s
+2026-06-12 14:22:48,732 - Epoch 46/199  train_loss=0.026578  epoch_time=212.5s
+2026-06-12 14:26:21,147 - Epoch 47/199  train_loss=0.024991  epoch_time=212.4s
+2026-06-12 14:29:54,077 - Epoch 48/199  train_loss=0.024732  epoch_time=212.9s
+2026-06-12 14:33:26,479 - Epoch 49/199  train_loss=0.024268  epoch_time=212.4s
+2026-06-12 14:33:26,550 - [CHECKPOINT] Saved latest checkpoint at epoch 49 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 14:37:06,659 - Epoch 50/199  train_loss=0.024674  val_mse=0.020493  val_l2re=0.141813  epoch_time=212.0s
+2026-06-12 14:37:06,730 - [CHECKPOINT] Saved best checkpoint at epoch 50 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 14:37:06,731 - [CHECKPOINT] New best model at epoch 50  val_l2re=0.141813
+2026-06-12 14:40:38,955 - Epoch 51/199  train_loss=0.023174  epoch_time=212.2s
+2026-06-12 14:44:11,593 - Epoch 52/199  train_loss=0.022634  epoch_time=212.6s
+2026-06-12 14:47:43,699 - Epoch 53/199  train_loss=0.022916  epoch_time=212.1s
+2026-06-12 14:51:16,311 - Epoch 54/199  train_loss=0.022590  epoch_time=212.6s
+2026-06-12 14:54:48,575 - Epoch 55/199  train_loss=0.022237  epoch_time=212.3s
+2026-06-12 14:58:20,510 - Epoch 56/199  train_loss=0.021543  epoch_time=211.9s
+2026-06-12 15:01:52,534 - Epoch 57/199  train_loss=0.021291  epoch_time=212.0s
+2026-06-12 15:05:24,838 - Epoch 58/199  train_loss=0.020749  epoch_time=212.3s
+2026-06-12 15:08:57,037 - Epoch 59/199  train_loss=0.021008  epoch_time=212.2s
+2026-06-12 15:08:57,104 - [CHECKPOINT] Saved latest checkpoint at epoch 59 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 15:12:37,492 - Epoch 60/199  train_loss=0.019975  val_mse=0.017078  val_l2re=0.130063  epoch_time=212.3s
+2026-06-12 15:12:37,571 - [CHECKPOINT] Saved best checkpoint at epoch 60 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 15:12:37,571 - [CHECKPOINT] New best model at epoch 60  val_l2re=0.130063
+2026-06-12 15:16:09,915 - Epoch 61/199  train_loss=0.020222  epoch_time=212.3s
+2026-06-12 15:19:42,323 - Epoch 62/199  train_loss=0.019484  epoch_time=212.4s
+2026-06-12 15:23:14,721 - Epoch 63/199  train_loss=0.019014  epoch_time=212.4s
+2026-06-12 15:26:46,698 - Epoch 64/199  train_loss=0.019098  epoch_time=212.0s
+2026-06-12 15:30:18,867 - Epoch 65/199  train_loss=0.018555  epoch_time=212.2s
+2026-06-12 15:33:51,158 - Epoch 66/199  train_loss=0.018461  epoch_time=212.3s
+2026-06-12 15:37:23,329 - Epoch 67/199  train_loss=0.017806  epoch_time=212.2s
+2026-06-12 15:40:55,774 - Epoch 68/199  train_loss=0.017529  epoch_time=212.4s
+2026-06-12 15:44:27,816 - Epoch 69/199  train_loss=0.018276  epoch_time=212.0s
+2026-06-12 15:44:27,885 - [CHECKPOINT] Saved latest checkpoint at epoch 69 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 15:48:08,197 - Epoch 70/199  train_loss=0.017846  val_mse=0.013116  val_l2re=0.112079  epoch_time=212.2s
+2026-06-12 15:48:08,269 - [CHECKPOINT] Saved best checkpoint at epoch 70 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 15:48:08,269 - [CHECKPOINT] New best model at epoch 70  val_l2re=0.112079
+2026-06-12 15:51:40,512 - Epoch 71/199  train_loss=0.017214  epoch_time=212.2s
+2026-06-12 15:55:12,652 - Epoch 72/199  train_loss=0.017515  epoch_time=212.1s
+2026-06-12 15:58:44,650 - Epoch 73/199  train_loss=0.016304  epoch_time=212.0s
+2026-06-12 16:02:16,384 - Epoch 74/199  train_loss=0.016942  epoch_time=211.7s
+2026-06-12 16:05:48,590 - Epoch 75/199  train_loss=0.016200  epoch_time=212.2s
+2026-06-12 16:09:21,029 - Epoch 76/199  train_loss=0.016719  epoch_time=212.4s
+2026-06-12 16:12:52,815 - Epoch 77/199  train_loss=0.015678  epoch_time=211.8s
+2026-06-12 16:16:24,615 - Epoch 78/199  train_loss=0.015315  epoch_time=211.8s
+2026-06-12 16:19:56,253 - Epoch 79/199  train_loss=0.016039  epoch_time=211.6s
+2026-06-12 16:19:56,326 - [CHECKPOINT] Saved latest checkpoint at epoch 79 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 16:23:36,145 - Epoch 80/199  train_loss=0.015161  val_mse=0.013212  val_l2re=0.113592  epoch_time=211.8s
+2026-06-12 16:27:07,782 - Epoch 81/199  train_loss=0.015660  epoch_time=211.6s
+2026-06-12 16:30:39,864 - Epoch 82/199  train_loss=0.015591  epoch_time=212.1s
+2026-06-12 16:34:11,800 - Epoch 83/199  train_loss=0.014959  epoch_time=211.9s
+2026-06-12 16:37:43,626 - Epoch 84/199  train_loss=0.014571  epoch_time=211.8s
+2026-06-12 16:41:15,318 - Epoch 85/199  train_loss=0.014439  epoch_time=211.7s
+2026-06-12 16:44:47,155 - Epoch 86/199  train_loss=0.013835  epoch_time=211.8s
+2026-06-12 16:48:18,856 - Epoch 87/199  train_loss=0.013719  epoch_time=211.7s
+2026-06-12 16:51:51,012 - Epoch 88/199  train_loss=0.014516  epoch_time=212.2s
+2026-06-12 16:55:22,534 - Epoch 89/199  train_loss=0.014088  epoch_time=211.5s
+2026-06-12 16:55:22,604 - [CHECKPOINT] Saved latest checkpoint at epoch 89 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 16:59:02,373 - Epoch 90/199  train_loss=0.013516  val_mse=0.011569  val_l2re=0.104734  epoch_time=211.7s
+2026-06-12 16:59:02,440 - [CHECKPOINT] Saved best checkpoint at epoch 90 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 16:59:02,440 - [CHECKPOINT] New best model at epoch 90  val_l2re=0.104734
+2026-06-12 17:02:34,313 - Epoch 91/199  train_loss=0.013363  epoch_time=211.9s
+2026-06-12 17:06:05,918 - Epoch 92/199  train_loss=0.013527  epoch_time=211.6s
+2026-06-12 17:09:37,731 - Epoch 93/199  train_loss=0.012319  epoch_time=211.8s
+2026-06-12 17:13:09,561 - Epoch 94/199  train_loss=0.012438  epoch_time=211.8s
+2026-06-12 17:16:41,299 - Epoch 95/199  train_loss=0.012307  epoch_time=211.7s
+2026-06-12 17:20:12,754 - Epoch 96/199  train_loss=0.012473  epoch_time=211.5s
+2026-06-12 17:23:44,395 - Epoch 97/199  train_loss=0.012787  epoch_time=211.6s
+2026-06-12 17:27:16,266 - Epoch 98/199  train_loss=0.012041  epoch_time=211.9s
+2026-06-12 17:30:48,247 - Epoch 99/199  train_loss=0.012738  epoch_time=212.0s
+2026-06-12 17:30:48,313 - [CHECKPOINT] Saved latest checkpoint at epoch 99 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 17:34:28,026 - Epoch 100/199  train_loss=0.012418  val_mse=0.010570  val_l2re=0.101877  epoch_time=211.6s
+2026-06-12 17:34:28,097 - [CHECKPOINT] Saved best checkpoint at epoch 100 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 17:34:28,098 - [CHECKPOINT] New best model at epoch 100  val_l2re=0.101877
+2026-06-12 17:38:00,113 - Epoch 101/199  train_loss=0.011425  epoch_time=212.0s
+2026-06-12 17:41:32,094 - Epoch 102/199  train_loss=0.012041  epoch_time=212.0s
+2026-06-12 17:45:03,957 - Epoch 103/199  train_loss=0.011453  epoch_time=211.9s
+2026-06-12 17:48:35,359 - Epoch 104/199  train_loss=0.011269  epoch_time=211.4s
+2026-06-12 17:52:07,088 - Epoch 105/199  train_loss=0.011417  epoch_time=211.7s
+2026-06-12 17:55:39,123 - Epoch 106/199  train_loss=0.011378  epoch_time=212.0s
+2026-06-12 17:59:11,270 - Epoch 107/199  train_loss=0.010588  epoch_time=212.1s
+2026-06-12 18:02:43,399 - Epoch 108/199  train_loss=0.009824  epoch_time=212.1s
+2026-06-12 18:06:14,913 - Epoch 109/199  train_loss=0.010907  epoch_time=211.5s
+2026-06-12 18:06:14,983 - [CHECKPOINT] Saved latest checkpoint at epoch 109 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 18:09:54,523 - Epoch 110/199  train_loss=0.010650  val_mse=0.010038  val_l2re=0.097856  epoch_time=211.5s
+2026-06-12 18:09:54,592 - [CHECKPOINT] Saved best checkpoint at epoch 110 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 18:09:54,593 - [CHECKPOINT] New best model at epoch 110  val_l2re=0.097856
+2026-06-12 18:13:26,279 - Epoch 111/199  train_loss=0.009818  epoch_time=211.7s
+2026-06-12 18:16:58,434 - Epoch 112/199  train_loss=0.009754  epoch_time=212.2s
+2026-06-12 18:20:30,573 - Epoch 113/199  train_loss=0.009768  epoch_time=212.1s
+2026-06-12 18:24:02,120 - Epoch 114/199  train_loss=0.010585  epoch_time=211.5s
+2026-06-12 18:27:33,884 - Epoch 115/199  train_loss=0.008664  epoch_time=211.8s
+2026-06-12 18:31:05,758 - Epoch 116/199  train_loss=0.008657  epoch_time=211.9s
+2026-06-12 18:34:37,553 - Epoch 117/199  train_loss=0.010106  epoch_time=211.8s
+2026-06-12 18:38:09,206 - Epoch 118/199  train_loss=0.009351  epoch_time=211.7s
+2026-06-12 18:41:41,059 - Epoch 119/199  train_loss=0.008849  epoch_time=211.9s
+2026-06-12 18:41:41,130 - [CHECKPOINT] Saved latest checkpoint at epoch 119 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 18:45:20,683 - Epoch 120/199  train_loss=0.008290  val_mse=0.009170  val_l2re=0.093895  epoch_time=211.5s
+2026-06-12 18:45:20,759 - [CHECKPOINT] Saved best checkpoint at epoch 120 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 18:45:20,759 - [CHECKPOINT] New best model at epoch 120  val_l2re=0.093895
+2026-06-12 18:48:52,324 - Epoch 121/199  train_loss=0.009035  epoch_time=211.6s
+2026-06-12 18:52:24,067 - Epoch 122/199  train_loss=0.009296  epoch_time=211.7s
+2026-06-12 18:55:55,660 - Epoch 123/199  train_loss=0.008095  epoch_time=211.6s
+2026-06-12 18:59:27,504 - Epoch 124/199  train_loss=0.007989  epoch_time=211.8s
+2026-06-12 19:02:59,102 - Epoch 125/199  train_loss=0.007946  epoch_time=211.6s
+2026-06-12 19:06:30,732 - Epoch 126/199  train_loss=0.008002  epoch_time=211.6s
+2026-06-12 19:10:02,002 - Epoch 127/199  train_loss=0.007865  epoch_time=211.3s
+2026-06-12 19:13:33,168 - Epoch 128/199  train_loss=0.007492  epoch_time=211.2s
+2026-06-12 19:17:04,889 - Epoch 129/199  train_loss=0.007590  epoch_time=211.7s
+2026-06-12 19:17:04,956 - [CHECKPOINT] Saved latest checkpoint at epoch 129 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 19:20:44,369 - Epoch 130/199  train_loss=0.007225  val_mse=0.009122  val_l2re=0.094271  epoch_time=211.4s
+2026-06-12 19:24:15,604 - Epoch 131/199  train_loss=0.008111  epoch_time=211.2s
+2026-06-12 19:27:47,181 - Epoch 132/199  train_loss=0.006989  epoch_time=211.6s
+2026-06-12 19:31:18,618 - Epoch 133/199  train_loss=0.007149  epoch_time=211.4s
+2026-06-12 19:34:49,878 - Epoch 134/199  train_loss=0.007047  epoch_time=211.3s
+2026-06-12 19:38:21,179 - Epoch 135/199  train_loss=0.006820  epoch_time=211.3s
+2026-06-12 19:41:52,549 - Epoch 136/199  train_loss=0.007364  epoch_time=211.4s
+2026-06-12 19:45:23,705 - Epoch 137/199  train_loss=0.007021  epoch_time=211.2s
+2026-06-12 19:48:55,020 - Epoch 138/199  train_loss=0.006721  epoch_time=211.3s
+2026-06-12 19:52:26,320 - Epoch 139/199  train_loss=0.006416  epoch_time=211.3s
+2026-06-12 19:52:26,387 - [CHECKPOINT] Saved latest checkpoint at epoch 139 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 19:56:05,648 - Epoch 140/199  train_loss=0.006724  val_mse=0.008255  val_l2re=0.088322  epoch_time=211.3s
+2026-06-12 19:56:05,712 - [CHECKPOINT] Saved best checkpoint at epoch 140 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 19:56:05,712 - [CHECKPOINT] New best model at epoch 140  val_l2re=0.088322
+2026-06-12 19:59:37,058 - Epoch 141/199  train_loss=0.006159  epoch_time=211.3s
+2026-06-12 20:03:08,716 - Epoch 142/199  train_loss=0.006245  epoch_time=211.7s
+2026-06-12 20:06:40,060 - Epoch 143/199  train_loss=0.006264  epoch_time=211.3s
+2026-06-12 20:10:11,484 - Epoch 144/199  train_loss=0.006233  epoch_time=211.4s
+2026-06-12 20:13:43,106 - Epoch 145/199  train_loss=0.006025  epoch_time=211.6s
+2026-06-12 20:17:14,725 - Epoch 146/199  train_loss=0.006267  epoch_time=211.6s
+2026-06-12 20:20:46,355 - Epoch 147/199  train_loss=0.005880  epoch_time=211.6s
+2026-06-12 20:24:17,897 - Epoch 148/199  train_loss=0.005945  epoch_time=211.5s
+2026-06-12 20:27:49,617 - Epoch 149/199  train_loss=0.005721  epoch_time=211.7s
+2026-06-12 20:27:49,693 - [CHECKPOINT] Saved latest checkpoint at epoch 149 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 20:31:29,735 - Epoch 150/199  train_loss=0.005970  val_mse=0.008038  val_l2re=0.086631  epoch_time=211.9s
+2026-06-12 20:31:29,801 - [CHECKPOINT] Saved best checkpoint at epoch 150 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 20:31:29,801 - [CHECKPOINT] New best model at epoch 150  val_l2re=0.086631
+2026-06-12 20:35:01,234 - Epoch 151/199  train_loss=0.005724  epoch_time=211.4s
+2026-06-12 20:38:32,676 - Epoch 152/199  train_loss=0.005745  epoch_time=211.4s
+2026-06-12 20:42:03,976 - Epoch 153/199  train_loss=0.005505  epoch_time=211.3s
+2026-06-12 20:45:34,945 - Epoch 154/199  train_loss=0.005580  epoch_time=211.0s
+2026-06-12 20:49:05,888 - Epoch 155/199  train_loss=0.005503  epoch_time=210.9s
+2026-06-12 20:52:37,007 - Epoch 156/199  train_loss=0.005430  epoch_time=211.1s
+2026-06-12 20:56:08,222 - Epoch 157/199  train_loss=0.005365  epoch_time=211.2s
+2026-06-12 20:59:39,490 - Epoch 158/199  train_loss=0.005304  epoch_time=211.3s
+2026-06-12 21:03:10,568 - Epoch 159/199  train_loss=0.005316  epoch_time=211.1s
+2026-06-12 21:03:10,631 - [CHECKPOINT] Saved latest checkpoint at epoch 159 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 21:06:49,500 - Epoch 160/199  train_loss=0.005250  val_mse=0.007661  val_l2re=0.084564  epoch_time=210.9s
+2026-06-12 21:06:49,567 - [CHECKPOINT] Saved best checkpoint at epoch 160 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 21:06:49,567 - [CHECKPOINT] New best model at epoch 160  val_l2re=0.084564
+2026-06-12 21:10:20,826 - Epoch 161/199  train_loss=0.005214  epoch_time=211.3s
+2026-06-12 21:13:51,744 - Epoch 162/199  train_loss=0.005159  epoch_time=210.9s
+2026-06-12 21:17:22,545 - Epoch 163/199  train_loss=0.005103  epoch_time=210.8s
+2026-06-12 21:20:53,569 - Epoch 164/199  train_loss=0.005089  epoch_time=211.0s
+2026-06-12 21:24:24,359 - Epoch 165/199  train_loss=0.005049  epoch_time=210.8s
+2026-06-12 21:27:55,157 - Epoch 166/199  train_loss=0.005038  epoch_time=210.8s
+2026-06-12 21:31:26,055 - Epoch 167/199  train_loss=0.004981  epoch_time=210.9s
+2026-06-12 21:34:57,134 - Epoch 168/199  train_loss=0.004965  epoch_time=211.1s
+2026-06-12 21:38:28,193 - Epoch 169/199  train_loss=0.004933  epoch_time=211.1s
+2026-06-12 21:38:28,256 - [CHECKPOINT] Saved latest checkpoint at epoch 169 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 21:42:07,196 - Epoch 170/199  train_loss=0.004920  val_mse=0.007671  val_l2re=0.084520  epoch_time=210.9s
+2026-06-12 21:42:07,259 - [CHECKPOINT] Saved best checkpoint at epoch 170 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 21:42:07,260 - [CHECKPOINT] New best model at epoch 170  val_l2re=0.084520
+2026-06-12 21:45:38,450 - Epoch 171/199  train_loss=0.004872  epoch_time=211.2s
+2026-06-12 21:49:09,540 - Epoch 172/199  train_loss=0.004864  epoch_time=211.1s
+2026-06-12 21:52:40,373 - Epoch 173/199  train_loss=0.004810  epoch_time=210.8s
+2026-06-12 21:56:11,844 - Epoch 174/199  train_loss=0.004812  epoch_time=211.5s
+2026-06-12 21:59:42,974 - Epoch 175/199  train_loss=0.004773  epoch_time=211.1s
+2026-06-12 22:03:14,125 - Epoch 176/199  train_loss=0.004751  epoch_time=211.1s
+2026-06-12 22:06:45,001 - Epoch 177/199  train_loss=0.004742  epoch_time=210.9s
+2026-06-12 22:10:15,818 - Epoch 178/199  train_loss=0.004713  epoch_time=210.8s
+2026-06-12 22:13:46,758 - Epoch 179/199  train_loss=0.004696  epoch_time=210.9s
+2026-06-12 22:13:46,821 - [CHECKPOINT] Saved latest checkpoint at epoch 179 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 22:17:25,743 - Epoch 180/199  train_loss=0.004686  val_mse=0.007567  val_l2re=0.083779  epoch_time=210.9s
+2026-06-12 22:17:25,806 - [CHECKPOINT] Saved best checkpoint at epoch 180 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 22:17:25,806 - [CHECKPOINT] New best model at epoch 180  val_l2re=0.083779
+2026-06-12 22:20:56,780 - Epoch 181/199  train_loss=0.004661  epoch_time=211.0s
+2026-06-12 22:24:28,001 - Epoch 182/199  train_loss=0.004650  epoch_time=211.2s
+2026-06-12 22:27:58,719 - Epoch 183/199  train_loss=0.004639  epoch_time=210.7s
+2026-06-12 22:31:29,813 - Epoch 184/199  train_loss=0.004635  epoch_time=211.1s
+2026-06-12 22:35:01,194 - Epoch 185/199  train_loss=0.004613  epoch_time=211.4s
+2026-06-12 22:38:32,339 - Epoch 186/199  train_loss=0.004604  epoch_time=211.1s
+2026-06-12 22:42:03,198 - Epoch 187/199  train_loss=0.004592  epoch_time=210.9s
+2026-06-12 22:45:34,111 - Epoch 188/199  train_loss=0.004584  epoch_time=210.9s
+2026-06-12 22:49:05,120 - Epoch 189/199  train_loss=0.004578  epoch_time=211.0s
+2026-06-12 22:49:05,183 - [CHECKPOINT] Saved latest checkpoint at epoch 189 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 22:52:44,260 - Epoch 190/199  train_loss=0.004570  val_mse=0.007481  val_l2re=0.083414  epoch_time=211.1s
+2026-06-12 22:52:44,328 - [CHECKPOINT] Saved best checkpoint at epoch 190 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_best.pth
+2026-06-12 22:52:44,328 - [CHECKPOINT] New best model at epoch 190  val_l2re=0.083414
+2026-06-12 22:56:15,332 - Epoch 191/199  train_loss=0.004565  epoch_time=211.0s
+2026-06-12 22:59:46,739 - Epoch 192/199  train_loss=0.004566  epoch_time=211.4s
+2026-06-12 23:03:18,355 - Epoch 193/199  train_loss=0.004551  epoch_time=211.6s
+2026-06-12 23:06:49,586 - Epoch 194/199  train_loss=0.004550  epoch_time=211.2s
+2026-06-12 23:10:20,736 - Epoch 195/199  train_loss=0.004553  epoch_time=211.1s
+2026-06-12 23:13:52,047 - Epoch 196/199  train_loss=0.004541  epoch_time=211.3s
+2026-06-12 23:17:23,139 - Epoch 197/199  train_loss=0.004540  epoch_time=211.1s
+2026-06-12 23:20:54,057 - Epoch 198/199  train_loss=0.004548  epoch_time=210.9s
+2026-06-12 23:24:33,229 - Epoch 199/199  train_loss=0.004544  val_mse=0.007520  val_l2re=0.083557  epoch_time=211.2s
+2026-06-12 23:24:33,295 - [CHECKPOINT] Saved latest checkpoint at epoch 199 → /kaggle/working/transolver_output/0/200_0.5/checkpoint_latest.pth
+2026-06-12 23:24:33,296 - [DONE] Training complete.  Total time: 42501.3s
+2026-06-12 23:24:33,296 - [DONE] Best val_l2re: 0.083414
+2026-06-12 23:24:33,297 - [DONE] Summary written to /kaggle/working/transolver_output/0/200_0.5/summary_200.json

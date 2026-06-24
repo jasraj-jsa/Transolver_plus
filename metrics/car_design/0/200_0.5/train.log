@@ -1,0 +1,32 @@
+2026-06-11 18:57:56,752 - Namespace(data_dir='./dataset/mlcfd_data/car_preprocessed', save_dir='./dataset/mlcfd_data/car_preprocessed', fold_id=0, gpu=0, val_iter=10, weight=0.5, lr=0.001, batch_size=1, nb_epochs=200, preprocessed=1)
+2026-06-11 18:57:56,753 - Parameters: 1741224
+2026-06-13 16:22:01,404 - ============================================================
+2026-06-13 16:22:01,417 - [START] args: Namespace(data_dir='./dataset/mlcfd_data/car_preprocessed', save_dir='./dataset/mlcfd_data/car_preprocessed', fold_id=0, gpu=0, val_iter=10, weight=0.5, lr=0.001, batch_size=1, nb_epochs=200, preprocessed=1, resume=0, checkpoint_every=10, output_dir='')
+2026-06-13 16:24:50,278 - [INFO] Train samples: 789  Val samples: 100
+2026-06-13 16:24:51,002 - [INFO] Parameters: 1,741,224
+2026-06-13 16:24:51,322 - [INFO] Model parameters: 1,741,224
+2026-06-13 16:24:51,323 - [INFO] Training from epoch 0 to 199
+2026-06-13 16:24:51,323 - [INFO] checkpoint_every=10  val_iter=10
+2026-06-13 16:26:43,200 - Epoch 0/199  train_loss=0.186007  val_mse=0.162635  val_l2re=0.409848  epoch_time=107.7s
+2026-06-13 16:26:43,295 - [CHECKPOINT] Saved best checkpoint at epoch 0 → metrics/car_design/0/200_0.5/checkpoint_best.pth
+2026-06-13 16:26:43,296 - [CHECKPOINT] New best model at epoch 0  val_l2re=0.409848
+2026-06-13 16:28:27,218 - Epoch 1/199  train_loss=0.106047  epoch_time=103.9s
+2026-06-13 16:30:11,151 - Epoch 2/199  train_loss=0.081960  epoch_time=103.9s
+2026-06-13 16:31:55,088 - Epoch 3/199  train_loss=0.070487  epoch_time=103.9s
+2026-06-13 16:33:39,014 - Epoch 4/199  train_loss=0.063256  epoch_time=103.9s
+2026-06-13 16:35:22,943 - Epoch 5/199  train_loss=0.058879  epoch_time=103.9s
+2026-06-13 16:37:06,872 - Epoch 6/199  train_loss=0.059345  epoch_time=103.9s
+2026-06-13 16:38:50,798 - Epoch 7/199  train_loss=0.058636  epoch_time=103.9s
+2026-06-13 16:40:34,740 - Epoch 8/199  train_loss=0.056637  epoch_time=103.9s
+2026-06-13 16:42:18,634 - Epoch 9/199  train_loss=0.055953  epoch_time=103.9s
+2026-06-13 16:42:18,689 - [CHECKPOINT] Saved latest checkpoint at epoch 9 → metrics/car_design/0/200_0.5/checkpoint_latest.pth
+2026-06-13 16:44:06,763 - Epoch 10/199  train_loss=0.056573  val_mse=0.045159  val_l2re=0.212391  epoch_time=103.9s
+2026-06-13 16:44:06,921 - [CHECKPOINT] Saved best checkpoint at epoch 10 → metrics/car_design/0/200_0.5/checkpoint_best.pth
+2026-06-13 16:44:06,921 - [CHECKPOINT] New best model at epoch 10  val_l2re=0.212391
+2026-06-13 16:45:50,837 - Epoch 11/199  train_loss=0.052761  epoch_time=103.9s
+2026-06-13 16:47:34,769 - Epoch 12/199  train_loss=0.054895  epoch_time=103.9s
+2026-06-13 16:49:18,634 - Epoch 13/199  train_loss=0.052501  epoch_time=103.9s
+2026-06-13 16:51:02,526 - Epoch 14/199  train_loss=0.051531  epoch_time=103.9s
+2026-06-13 16:52:46,451 - Epoch 15/199  train_loss=0.052913  epoch_time=103.9s
+2026-06-13 16:54:30,374 - Epoch 16/199  train_loss=0.051987  epoch_time=103.9s
+2026-06-13 16:56:14,282 - Epoch 17/199  train_loss=0.049776  epoch_time=103.9s

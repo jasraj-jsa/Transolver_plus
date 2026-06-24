@@ -85,7 +85,13 @@ class Physics_Attention_1D_Eidetic(nn.Module):
         q_slice_token = self.to_q(slice_token)
         k_slice_token = self.to_k(slice_token)
         v_slice_token = self.to_v(slice_token)
-        out_slice_token = F.scaled_dot_product_attention(q_slice_token, k_slice_token, v_slice_token)
+
+        # Compute explicit attention matrix (G×G) so callers can inspect it.
+        scale = self.dim_head ** -0.5
+        dots = torch.matmul(q_slice_token, k_slice_token.transpose(-1, -2)) * scale
+        attn = F.softmax(dots, dim=-1)
+        self.last_attn = attn  # B H G G — readable by experiment hooks
+        out_slice_token = torch.matmul(attn, v_slice_token)
 
         out_x = torch.einsum("bhgc,bhng->bhnc", out_slice_token, slice_weights)
         out_x = rearrange(out_x, 'b h n d -> b n (h d)')

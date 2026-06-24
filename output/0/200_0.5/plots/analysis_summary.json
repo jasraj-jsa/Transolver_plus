@@ -1,0 +1,13 @@
+{
+    "total_epochs": 200,
+    "final_train_loss": 0.017071847333507882,
+    "best_val_loss": 0.043059841489885,
+    "best_surf_l2re": 0.08418346241116524,
+    "best_vol_l2re": 0.09263617869466544,
+    "final_surf_l2re": 0.08428522910922766,
+    "final_vol_l2re": 0.09274074610322713,
+    "paper_baseline": {
+        "surf_l2re": 0.0745,
+        "vol_l2re": 0.0207
+    }
+}

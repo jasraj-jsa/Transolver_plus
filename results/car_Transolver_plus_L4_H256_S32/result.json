@@ -1,0 +1,17 @@
+{
+    "model": "Transolver+",
+    "task": "ShapeNet Car",
+    "n_layers": 4,
+    "n_hidden": 256,
+    "n_heads": 8,
+    "slice_num": 32,
+    "nb_params": 1741224,
+    "epochs": 200,
+    "surf_l2re": 0.08477934695780277,
+    "vol_l2re": 0.09380419913679361,
+    "paper_baseline": {
+        "model": "Transolver",
+        "surf_l2re": 0.0745,
+        "vol_l2re": 0.0207
+    }
+}

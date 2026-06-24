@@ -1,0 +1,10 @@
+{
+    "nb_parameters": 1741224,
+    "time_elapsed_s": 21012.57,
+    "hparams": {
+        "lr": 0.001,
+        "batch_size": 1,
+        "nb_epochs": 200
+    },
+    "best_val_loss": 0.043059841489885
+}
